@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;400&display=swap");
+
+body {
+  padding: 0;
+  position: absolute;
+  left: 10%;
+  right: 10%;
+  font-family: "Raleway", sans-serif;
+}
+
+nav {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+nav .logo a {
+  text-decoration: none;
+  color: black;
+}
+nav .onglets a {
+  margin-right: 10px;
+  color: #555454;
+  text-decoration: none;
+}
+nav .onglets a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+header {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  box-shadow: -4px 6px 29px -11px rgba(166, 166, 166, 0.75);
+  -webkit-box-shadow: -4px 6px 29px -11px rgba(166, 166, 166, 0.75);
+  -moz-box-shadow: -4px 6px 29px -11px rgba(166, 166, 166, 0.75);
+}
+header h3 {
+  margin-top: -10px;
+}
+
+
+.cartes {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cartes .carte {
+  width: 500px;
+  border: 3px solid black;
+  max-width: 700px;
+  margin-bottom: 40px;
+  padding: 20px;
+}
+
+
+
+footer {
+  background-color: black;
+  padding: 20px;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+footer .droite {
+  display: flex;
+}
+footer .droite p {
+  margin-top: 0px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 640px) {
+  header {
+    margin-top: 20px;
+    text-align: left;
+  }
+  nav .logo {
+    margin-bottom: 10px;
+  }
+
+}

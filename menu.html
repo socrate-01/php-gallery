@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+			 <title>Menu </title>
+			<style type="text/css">
+				h1{
+
+width: 100%;
+				}
+
+			.cartes .carte	a {
+  outline: none;
+  text-decoration: none;
+  display: inline-block;
+  width: 150px;
+  margin-right: 0.625%;
+  text-align: center;
+  line-height: 3;
+  color: rgb(255, 255, 255);
+}
+
+
+.cartes .carte a:link,.cartes .carte a:visited, .cartes .carte a:focus {
+ /*background: #20B2AA;*/
+ background: #000303;
+}
+
+.cartes .carte a:hover {
+  background:white ;
+  border: 2px solid black;
+  color:rgb(0, 0, 0) ;
+}
+
+
+header {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  box-shadow: -4px 6px 29px -11px rgba(166, 166, 166, 0.75);
+  -webkit-box-shadow: -4px 6px 29px -11px rgba(166, 166, 166, 0.75);
+  -moz-box-shadow: -4px 6px 29px -11px rgba(166, 166, 166, 0.75);
+}
+header h3 {
+  margin-top: -10px;
+}
+.cartes {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cartes .carte {
+  width: 150px;
+  border: 1px solid black;
+  max-width: 700px;
+  margin-bottom: 40px;
+  padding: 26px;
+  margin-top:5px;
+}
+.onglets a {
+  margin-right: 10px;
+  color: #555454;
+  text-decoration: none;
+}
+ .onglets a:hover {
+  text-decoration: underline;
+  color: black;
+}
+ 
+			</style>
+	</head>
+	<body>
+	
+		<header>
+      <h1>
+        Menu
+      </h1>
+      <h3>
+        Cliquez sur un bouton.
+      </h3>
+    </header>
+
+<section class="cartes">
+	<div class="onglets">
+	<a href="Acceuil.php" target="main">Home</a></br></br></hr>
+	</div>
+      <div class="carte">
+       
+ <a href="allphoto.php" target="main">Toutes les photos</a></br></br></hr>
+ <a href="pageenpage.php" target="main">Page en page</a></br></br>
+ <a href="supprimer.php" target="main">Supprimer</a></br></hr>
+        </div>
+
+
+    </section>
+
+	</body>
+	</html>
